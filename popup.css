@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #22b473;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    padding: 35px;
+    background-color: #1a1a1a;
+    width: 350px;
+    max-height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.settings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: Rockwell;
+  font-size: 60px;
+  color: White;
+}
+
+h3{
+  font-family: Rockwell;
+  color: White;
+  font-size: 30px;
+  margin: 0px 30px 0px 0px
+}
+
+.item {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+/* Adjust the margin or spacing between the switch and text as needed */
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 100px; /* You can adjust the width as needed */
+  height: 50px;
+  background: grey;
+  display: flex; /* Use flex display */
+  align-items: center; /* Align items vertically */
+  border-radius: 100px;
+  position: relative;
+}
+
+/* Add some margin or padding to separate the switch and text */
+label .text {
+  margin-left: 10px; /* Adjust the spacing as needed */
+}
+
+switch-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label:after {
+  content: '';
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: #22b473;
+}
+
+input:checked + label:after {
+  left: calc(100% - 2.5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 65px;
+}
