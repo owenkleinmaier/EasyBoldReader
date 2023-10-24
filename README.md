@@ -10,11 +10,7 @@ All the user needs to do is toggle the "Enable" switch in the extension popup an
 
 *Expansion to work on PDF's is in the works.*
       
-## Video Walkthrough
-
-Here's a walkthrough of the implemented user stories:
-
-<img src='NoteAppWalkthrough.gif' title='Video Walkthrough' width='30%' alt='Video Walkthrough' />
+<img src='EasyReaderPicture.png' title='Picture of Extenstion' width='30%' alt='Video Walkthrough' />
 
 
 ## License
