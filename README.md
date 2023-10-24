@@ -10,7 +10,7 @@ All the user needs to do is toggle the "Enable" switch in the extension popup an
 
 *Expansion to work on PDF's is in the works.*
       
-<img src='EasyReaderPicture.png' title='Picture of Extenstion' width='30%' alt='Video Walkthrough' />
+<img src='EasyBoldPicture.png' title='Picture of Extenstion' width='30%' />
 
 
 ## License
