@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Easy Bold Reader",
     "description": "Helps You Read Easier and Faster with the Scientifically Proven Hyper Bold Method!",
-    "version": "0.3",
+    "version": "0.5",
     "icons": {
         "16": "16-icon.png",
         "32": "32-icon.png",
@@ -24,9 +24,12 @@
         }
     ],
 
+    "background": {
+        "service_worker": "background.js"
+    },
 
     "permissions": [
         "activeTab",
-        "tabs"
+        "storage"
     ]
 }

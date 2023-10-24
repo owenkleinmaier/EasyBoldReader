@@ -1,7 +1,8 @@
-// creates buttons and runs script when pressed
-let switch = document.getElementById("switch");
-switch.addEventListener("toggle", runScript);
+chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
+    if (message.enabled !== undefined) {
+        // Update the state in browser storage
+        chrome.storage.sync.set({ enabled: message.enabled });
+    }
+});
 
-function runScript(){
-    let msg = "hello";
-}
+  
