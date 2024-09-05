@@ -1,5 +1,7 @@
 # Easy Bold Reader (Chrome Extension)
 
+https://chromewebstore.google.com/detail/easy-bold-reader/oakpjlnlggmfdmdllhpdnbekgikjjaaj 
+
 Helps You Read Easier and Faster with the Scientifically Proven Hyper Bold Method!
 
 The Easy Bold Reader extension is designed to enhance the readability and accessibility of online content such as articles using the Easy Bold method. This method involves bolding the first half of words which has been scientifically proven to help the brain both read faster and comprehend better. This extension works on almost every website.
